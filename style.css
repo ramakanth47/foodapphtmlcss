@@ -1,0 +1,730 @@
+*{
+ box-sizing: border-box;
+ margin: 0px;
+}
+.navbar{
+    height: 600px;
+    width: 1370px;
+    background-image: url('./images/image.jpg');
+    background-size: cover;
+
+}
+#logo{
+  margin-left:40px;
+}
+.navsection ul{
+    display: block;
+     margin-left: 600px;
+    
+}
+.navsection,li{
+   
+    float: left;
+    list-style-type: none;
+    color: white;
+    margin-left: 10px;
+
+}
+.navsection,ul{
+ margin-left: 270px;
+ margin-top: -28px;
+}
+#information{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    
+}
+#information,div{
+    flex-direction: row;
+    color: white;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+#logos{
+    display: flex;
+    flex-direction: row;
+    margin-left: 620px;
+}
+#para1{
+    margin-top: 170px;
+}
+#para2{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#para3{
+
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+#para4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+#para4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+#btnp1{
+    width:200px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 55px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+}
+#btnp2{
+    width:200px;
+    height:50px;
+    background:black;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-top: 15px;
+
+}
+#text{
+    display: flex;
+    width:1370px;
+    height: 900px;
+    margin-left: -200px;
+}
+#text,#imagecontainer,#subpara1{
+    flex-direction:row-reverse;
+    color: black;
+}
+#imagecontainer{
+    margin-left: 180px;
+    margin-right: -140px;
+}
+#subpara1{
+    margin-top: 15px;
+    margin-left: 180px;
+    margin-right: -50px;
+    font-weight: lighter;
+    font-size: 18px;
+
+}
+#fst{
+    font-weight: bold;
+    color: green;
+}
+
+#scnd{
+    margin-top: 10px;
+   margin-left: -25px;
+    margin-right: -190px;
+    font-weight: lighter;
+    font-size: 18px;
+    color: black; 
+}
+.menu-categories{
+    display: flex;
+   margin-left: 500px;
+}
+.thirdcontainer{
+    margin-top: -500px;
+    width:1370px;
+    height: 600px;
+    background-image: url('./images/19.PNG');
+    background-size: cover;
+}
+.secondcontainer{
+    width:1370px;
+    height:600px;
+    color:black;
+}
+.main-title{
+    margin-top:-200px;
+    margin-left: 570px;
+     margin-right: 600px;
+}
+.subtitle{
+    margin-left: 570px;
+    margin-right: 500px;
+}
+.logo-container{
+    width: 50px;
+    height: 15px;
+    
+}
+.logo{
+    width:50px;
+    height:50px;
+    margin-left: 600px;
+    margin-top: -300px;
+    margin-bottom: 1500px;
+   
+}
+#form{
+    background-color: rgb(26, 23, 23);
+    width: 480px;
+    height: 600px;
+    margin-top: 380px;
+}
+#first{
+    color: white;
+}
+#firstfield{
+    margin-top: 30px;
+    width:400px;
+    height: 50px;
+}
+#secondfield{
+  margin-top: 30px;
+    width:400px;
+    height: 100px;  
+}
+textarea::placeholder {
+  text-align: left;
+  
+}
+
+textarea {
+  text-align: left; 
+  vertical-align: top; 
+  resize: vertical;  
+}
+.ymessage{
+  margin-top: 50px;  
+  width:400px;
+  height: 100px;  
+}
+#btnpfrm{
+    width:100px;
+    height: 40px;
+    background-color: orange;
+    margin-top: 50px;
+    color: white;
+}
+.fourthcontainer{
+    width:1370px;
+    height: 600px;
+    background-image: url('./images/11.jpg');
+    background-size: cover;
+}
+#boxes{
+    display: flex;
+
+}
+#boxes,#fbx,#sbx,#tbx{
+    padding-top: 110px;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+#fbx{
+    width:290px;
+    height:180px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: black;
+    font-weight:bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sbx{
+    width:280px;
+    height:180px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: black;
+    font-weight:bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tbx{
+    width:280px;
+    height:180px;
+    background-color: white;
+    border-radius: 25px;
+    padding-top: 20px;
+    padding-left: 40px;
+    color: black;
+    font-weight:bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#imgcus1,#imgcus2,#imgcus3{
+    margin-top: 55px;
+    margin-left: 75px;
+}
+#heading1{
+    padding-top: 25px;
+    margin-left: 535px;
+    margin-right: 400px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#logo1{
+    padding-top: 25px;  
+    margin-left: 650px;
+    margin-right: 800px;
+}
+.stats-container{
+    margin-top: 25px;
+    justify-content: space-around;
+    width:1370px;
+    height:200px;
+    color:black;
+    display: flex;
+    flex-direction: row;
+}
+.stat-item,p{
+    color: black;
+}
+
+.stat-circle {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #FF8300;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+#sttext{
+    margin-left: 30px;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.83em;
+    margin-inline-start: -25px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #FF8300;
+}
+.dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+.special-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.offers-right{
+  margin-top: 35px;
+   display: flex;
+   justify-content: flex-end;
+   margin-top: -412px;
+   margin-right: 125px;
+   margin-bottom: 105px;
+}
+
+.offers-left{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 18px;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section-title,.special-title{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fifthcontainer{
+    width:1370px;
+    height:400px;
+    background-color: rgb(235, 157, 12);
+}
+.bi-envelope-paper-fill{
+  margin-top: 80px;  
+  margin-left: 650px;
+  margin-right: 800px;
+  width:50px;
+  height:50px;
+}
+#subscriptionheading{
+  margin-left: 500px;
+  margin-right: 100px;
+}
+.inpbx{
+  margin-top: 15px;  
+  margin-left: 400px;    
+  width:500px;
+  height:50px
+}
+#btnpsub{
+    width:100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#paragraphsubscp{
+    margin-top: 15px;
+    margin-left: 500px;
+    margin-left: 500px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+* Footer Section Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.footer-container{
+    width:1370px;
+    height: 450px;
+    background-color: #333;
+    display: flex;
+}
+.footer-container,div{
+    flex-direction: row;
+    justify-content: space-around;
+}
+#footerlogo{
+    margin-left: -110px;
+    width:120px;
+    height:50px;
+    margin-top: 15px;
+    
+}
+#ftxt{
+margin-left: -50px;
+  width:100px;
+  height:250px;
+
+}
+#fstfootertxt{
+    margin-left: -110px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#scndfootertxt{
+  width:150px;
+  height:250px;
+  margin-top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fstxt{
+    margin-top: 55px;
+}
+#thdtxt{
+  width:150px;
+  height:250px;
+  margin-top: 55px;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+#fstp,#scndp{
+    color: white;
+    font-weight: bold;
+}
+.instagram-img{
+    margin-left: -25px;
+    margin-top: 10px;
+}
+#furtxt{
+ margin-top: 55px;
+}
+#cprt{
+    margin-left: 500px;
+    margin-right: 500px;
+    
+    color: #fdfdfd;
+}
+#cprts{
+ border: 1px solid white;   
+background-color: #333;
+}
+#footertxthead{
+    color: #fdfdfd;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width: 480px){
+  .navbar, #text, .thirdcontainer {
+        width: 100%;
+        margin-left: 0;
+    
+    }
+    .navsection ul{
+    display: block;
+     margin-left:-370px;
+     margin-top: 20px;
+    
+}
+    #para2{
+        margin-top: -100px;
+    }
+    #logos{
+   
+    margin-left: -100px;
+   }
+  
+   #text{
+    width:10%;
+    height:1450px;
+    margin-left: 100px;
+}
+#text,#imagecontainer,#subpara1{
+    flex-direction:row;
+    color: black;
+}
+#subpara1{
+    margin-left: -345px;
+    margin-right: -365px;
+    width:1000px;
+    margin-bottom: 10px;
+}
+#scnd{
+    width:100%;
+}
+#imagecontainer{
+    margin-top: 500px;
+    margin-left: -100px;
+    margin-right: -140px;
+}
+.secondcontainer{
+    width:100%;
+}
+.main-title{
+    margin-top:-410px;
+    margin-left: 80px;
+    margin-right: 0px;
+}
+.menu-categories{
+    margin-left: 0px;
+}
+.subtitle{
+    margin-left: 80px;
+    margin-right: 0px;
+}
+.logo-container{
+    width: 60px;
+    height: 25px;
+    
+}
+.logo{
+    margin-left: 90px;
+    margin-top: -500px;
+}
+.dishes{
+ display: flex;  
+ flex-direction: column; 
+ margin-top: -500px;
+ margin-bottom: -500px;
+ margin-top: 10px;
+}
+
+#form{
+   background-color: rgb(26, 23, 23);
+    width: 400px;
+    height: 700px;
+    margin-bottom: 500px;
+    margin-left: -30px;
+    margin-top: 500px;
+ 
+  
+}
+.special-dish{
+    margin-top: 100px;
+    padding-top: 80px;
+}
+#thirdcontainer{
+  width: 700px;
+  height: 1400px;
+}
+.section-title,.special-title{
+   margin-left: auto;
+   margin-right: auto;
+}
+.special-cards{
+    flex-direction: column;
+}
+.offers-left{
+    flex-direction: column;
+}
+.offers-right{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#firstfield{
+    margin-top: 30px;
+    width:280px;
+    height: 50px;
+}
+#secondfield{
+  margin-top: 30px;
+    width:280px;
+    height: 100px;  
+}
+.ymessage{
+  margin-top: 50px;  
+  width:280px;
+  height: 100px;  
+}
+.fourthcontainer{
+  width: 400px;
+  height: 1180px;
+  margin-top: 200px;
+}
+.stats-container{
+    margin-top: 25px;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 85px;
+    display: flex;
+    flex-direction: column;
+}
+#boxes{
+    display: flex;
+
+}
+#boxes{
+     margin-top:-50px ;
+    
+    flex-direction: column;
+    
+}
+#fbx,#sbx,#tbx{
+    margin-bottom: 110px;
+}
+#logo1{
+    padding-top: 25px;  
+    margin-left: 95px;
+    margin-right: 8px;
+}
+#heading1{
+   margin-left:46px;
+}
+.statistics{
+    width:100px;
+    height: 980px;
+}
+.stat-circle,p{
+    margin-left: -25px;
+    color: black;
+}
+#sttext{
+    margin-left: 20px;
+}
+
+.fifthcontainer{
+    width:440px;
+    height:400px;
+    background-color: rgb(235, 157, 12);
+    margin-top: -250px;
+}
+.bi-envelope-paper-fill{
+  margin-top: 80px;  
+  margin-left: 150px;
+  margin-right: 0px;
+  width:50px;
+  height:50px;
+}
+#subscriptionheading{
+  margin-left: 50px;
+  margin-right: 0px;
+}
+.inpbx{
+  margin-top: 15px;  
+  margin-left: -10px;    
+  width:250px;
+  height:50px
+}
+#btnpsub{
+    margin-left: 0px;
+    width:100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+#paragraphsubscp{
+    margin-top: 15px;
+    margin-left: 0px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.footer-container{
+    width:100%;
+    height: 1200px;
+    background-color: #333;
+    display: flex;
+}
+.footer-container,div{
+    flex-direction: column;
+
+}
+#footerlogo{
+    margin-left: -105px;
+}
+#txt{
+    margin-left: 65px;
+}
+#ftxt{
+  margin-left: 125px;
+  width:100px;
+  height:250px;
+
+}
+#fstxt{
+    margin-left: 55px;
+    margin-top:85px;
+}
+#thdtxt{
+    margin-left: 55px;
+    margin-top: -65px;
+}
+#cprt{
+    margin-left: 3px;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width: 768px) {
+    .navbar, #para1, #text, .thirdcontainer {
+        
+        margin-left: 0;
+    }
+    /* Adjust other elements for smaller screens */
+}
